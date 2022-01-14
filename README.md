@@ -11,7 +11,7 @@ PROD_PORT=8000`
 
 Your .env file should be at the root folder of the project and should look like this :
 
-![image](https://user-images.githubusercontent.com/37881219/149551349-89546ef3-9bb2-4bcc-b555-1f55e1adc322.png)
+<script src="https://gist.github.com/nermineslimane/27d7ea288c83869e25ca152e64a6af85.js"></script>
 
 After setting this up you can run `npm start` or in dev mode usin nodemon `npm run dev` 
 You'll have your project running according to your status
