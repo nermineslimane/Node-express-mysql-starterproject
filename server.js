@@ -1,6 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 //const config = require('./app/config/auth.config');
+const db = require('./app/models');
 
 const app = express();
 app.use(express.json());
@@ -16,3 +17,4 @@ process.env.STATUS === 'production'
 httpServer.listen(PORT, () => {
   console.log(`Server in ${process.env.STATUS} mode, listening on *:${PORT}`);
 });
+db.sequelize.sync();
