@@ -9,3 +9,5 @@ DEV_PORT=7000
 PROD_PORT=8000`
 
 
+Your .env file should be at the root folder of the project and should look like this 
+![image](https://user-images.githubusercontent.com/37881219/149551349-89546ef3-9bb2-4bcc-b555-1f55e1adc322.png)
