@@ -13,7 +13,6 @@ let PORT;
 process.env.STATUS === 'production'
   ? (PORT = process.env.PROD_PORT)
   : (PORT = process.env.DEV_PORT);
-console.log(PORT);
 httpServer.listen(PORT, () => {
-  console.log(`listening on *:${PORT}`);
+  console.log(`Server in ${process.env.STATUS} mode, listening on *:${PORT}`);
 });
