@@ -1,0 +1,32 @@
+{
+  "name": "node-express-mysql-starterproject",
+  "version": "1.0.0",
+  "description": "Starter project structure for nodejs, express and mysql ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nermineslimane/Node-express-mysql-starterproject.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "express",
+    "mysql",
+    "sequelize"
+  ],
+  "author": "Nermine slimane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nermineslimane/Node-express-mysql-starterproject/issues"
+  },
+  "homepage": "https://github.com/nermineslimane/Node-express-mysql-starterproject#readme",
+  "dependencies": {
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
