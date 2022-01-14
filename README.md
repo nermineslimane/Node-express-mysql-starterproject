@@ -15,9 +15,11 @@ Your .env file should be at the root folder of the project and should look like 
 
 After setting this up you can run `npm start` or in dev mode usin nodemon `npm run dev` 
 You'll have your project running according to your status
--Development
+- Development
+
 ![image](https://user-images.githubusercontent.com/37881219/149552039-5001c3fd-98e1-45e8-a4e7-cf2148d0f00e.png)
--Production
+- Production
+
 ![image](https://user-images.githubusercontent.com/37881219/149552169-7abfe426-3818-4fe4-a5b5-11ebb829820a.png)
 
 
