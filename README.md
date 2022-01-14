@@ -23,3 +23,6 @@ You'll have your project running according to your status
 ![image](https://user-images.githubusercontent.com/37881219/149552169-7abfe426-3818-4fe4-a5b5-11ebb829820a.png)
 
 Create a database named project in your project and change the config in your .env file and there you have it, the table user will be created automatically 
+
+![image](https://user-images.githubusercontent.com/37881219/149562749-b4054466-5b41-4367-bdea-36a929e72d30.png)
+
